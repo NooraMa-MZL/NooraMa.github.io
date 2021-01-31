@@ -1,4 +1,16 @@
-/_site
+# hidden files
+.*
+!.github
+
+# jekyll cache
+_site
+vendor
+
+# rubygem
 *.gem
-.sass-cache
-Gemfile.lock
+# yard docs
+doc
+
+# npm dependencies
+node_modules
+package-lock.json
